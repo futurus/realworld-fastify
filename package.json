@@ -1,0 +1,37 @@
+{
+  "name": "realworld-fastify",
+  "version": "0.1.0",
+  "description": "Conduit Back-end Fastify Implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.test.js test/*/*.test.js test/*/*/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -l info -P app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurus/realworld-fastify.git"
+  },
+  "keywords": [
+    "Conduit",
+    "Back-end",
+    "API",
+    "Fastify"
+  ],
+  "author": "Alex Vu Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/futurus/realworld-fastify/issues"
+  },
+  "homepage": "https://github.com/futurus/realworld-fastify#readme",
+  "dependencies": {
+    "fastify": "^1.11.0",
+    "fastify-plugin": "^1.2.0",
+    "fastify-autoload": "^0.5.0",
+    "fastify-cli": "^0.22.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tap": "^12.0.0"
+  }
+}
